@@ -1,12 +1,14 @@
 {
-  "name": "localeapp",
+  "name": "atom-localeapp",
   "main": "./lib/localeapp",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Replace string with I18n including key based on current file path, and uploads intial string to localeapp.",
   "repository": "https://github.com/mgbatchelor/atom-localeapp",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "underscore-plus": "~1.0.6"
+  }
 }
