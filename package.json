@@ -1,7 +1,7 @@
 {
   "name": "localeapp",
   "main": "./lib/localeapp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Replace string with I18n including key based on current file path, and uploads intial string to localeapp.",
   "repository": "https://github.com/mgbatchelor/atom-localeapp",
   "license": "MIT",
