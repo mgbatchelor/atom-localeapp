@@ -1,13 +1,19 @@
 class HelloController
 
-  def before
-    "here"
-    "test"
+  def basic
+    "Replace this Awesome value!"
   end
 
-  def after
-    I18n.t('controllers.admin.test.hello.test')
-    I18n.t('controllers.admin.test.hello.me')
+  def class_values
+    "name: #{HelloController.name}"
+  end
+
+  def hash_values
+    person = {
+      name: "hello",
+      age: 43
+    }
+    "test #{person[:name]} (#{person['age']})"
   end
 
 end
