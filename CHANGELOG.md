@@ -1,4 +1,4 @@
-## 0.1.1 - Re-write using javascript
+## 0.1.2 - Re-write using javascript
 * Fixing bug that pushed a quoted string to localeapp
 * Code cleanup
 * Including underscore-plus npm package
