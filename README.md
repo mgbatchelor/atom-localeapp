@@ -1,4 +1,6 @@
-# localeapp package
+# Atom localeapp package
+
+[![Build Status](https://travis-ci.org/mgbatchelor/atom-localeapp.svg?branch=master)](https://travis-ci.org/mgbatchelor/atom-localeapp)
 
 ### Currently only works for Rails Controllers
 
